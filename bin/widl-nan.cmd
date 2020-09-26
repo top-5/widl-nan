@@ -1,0 +1,1 @@
+node widl-nan.js %*

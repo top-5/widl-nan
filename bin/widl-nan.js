@@ -21,7 +21,7 @@ var verbose = process.env.WIDL_NAN_VERBOSE || false;
 
 program
   .version('0.0.1')
-  .usage('[optinos] [widl] [widl...]')
+  .usage('[options] [widl] [widl...]')
   .option('-c, --clean', 'Cleanup generated codes')
   .option('-d, --dest [dir]', 'Destination directory of generated C++ code', '.')
   .option('-i, --init', 'Init workspace with impl and projecct files')

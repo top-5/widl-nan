@@ -1,0 +1,14 @@
+// File: circle.widl
+[Constructor(float x, float y)]
+interface Point {
+  attribute float x;
+  attribute float y;
+};
+
+[Constructor(Point centre, float radius)]
+interface Circle {
+  attribute Point centre;
+  attribute float radius;
+
+  double area();
+};

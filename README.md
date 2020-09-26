@@ -14,7 +14,7 @@ npm install --save ssh://git@github.com/01org/widl-nan.git
 All supported command-line options of widl-nan can be listed in the help information by ```-h``` argument.
 ```
 ./node_modules/.bin/widl-nan -h
-  Usage: widl-nan [optinos] [widl] [widl...]
+  Usage: widl-nan [options] [widl] [widl...]
 
   Options:
 
